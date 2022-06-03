@@ -1,0 +1,20 @@
+
+
+#imagenes {
+    display: block;
+    float: left;
+    width: 300px;
+    border: 3px solid red;
+}
+
+.imagen {
+    width: 300px;
+}
+
+#extendida {
+    display: block;
+    float: left;
+    width: 1773px;
+    height: 1162px;
+    border: 3px solid red;
+}

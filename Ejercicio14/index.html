@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio14</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="border">
+            <input id="calc" type="text" value="0">
+            <div id="botones">
+                <div id="C" onclick="darC()">C</div>
+                <div id="7" class="bot" onclick="darNumero('7')">7</div>
+                <div id="8" class="bot" onclick="darNumero('8')">8</div>
+                <div id="9" class="bot" onclick="darNumero('9')">9</div>
+                <div id="dividir" class="bot" value="/" onclick="operar(4)">/</div>
+                <div class="bot" onclick="raiz()">Raiz</div>
+                <div id="4" class="bot" onclick="darNumero('4')">4</div>
+                <div id="5" class="bot" onclick="darNumero('5')">5</div>
+                <div id="6" class="bot" onclick="darNumero('6')">6</div>
+                <div id="multiplicar" class="bot" value="*" onclick="operar(3)">*</div>
+                <div class="bot" onclick="porcentaje()">%</div>
+                <div id="1" class="bot" onclick="darNumero('1')">1</div>
+                <div id="2" class="bot" onclick="darNumero('2')">2</div>
+                <div id="3" class="bot" onclick="darNumero('3')">3</div>
+                <div id="restar" class="bot" value="-" onclick="operar(2)">-</div>
+                <div class="bot" onclick="inversa()">1/X</div>
+                <div id="0" class="bot" onclick="darNumero('0')">0</div>
+                <div class="bot" onclick="negativo()">+/-</div>
+                <div class="bot" onclick="darComa()">.</div>
+                <div id="sumar" class="bot" value="+" onclick="operar(1)">+</div>
+                <div id="igual" class="bot" value="=" onclick="esIgual()" >=</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="js/code.js"></script>
+</html>
